@@ -1,10 +1,12 @@
 from __future__ import unicode_literals
-from yt_dlp import YoutubeDL
 import subprocess
 import sys
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "yt_dlp"])
+
+from yt_dlp import YoutubeDL
+
 
 with open('dl.txt', "r") as f:
     lines = [line.rstrip().split('\t') for line in f]
