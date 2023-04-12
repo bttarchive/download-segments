@@ -13,7 +13,7 @@ with open('dl.txt', "r") as f:
 
 for i in range(0, len(lines)):
     if len(lines[i]) == 1:
-        lines[i].append('Clip #' + str(i + 1))
+        lines[i].append('Clip ' + str(i + 1))
 
 with open('failed.txt', 'w') as g:
     for i in range(0, len(lines)):
