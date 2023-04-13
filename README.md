@@ -10,7 +10,7 @@ Supported sites: Twitter, YouTube, Discord, Twitch, Google Drive, streamable, ..
 
 —
 
-The downloading-methods I'm about to list should work on Windows 10/11, I have no clue what would need to be adjusted to make it run on Linux and/or Mac. If you know, please telle me and I'll adjust this guide accordingly.
+The downloading-methods listed below should work on Windows 10/11, I have no clue what would need to be adjusted to make it run on Linux and/or Mac. If you know, please telle me and I'll adjust this guide accordingly.
 
 Also: All of this only works if the link is publicly available, i.e. you can’t download private Twitter-Clips or private YouTube-videos with this method.
 
