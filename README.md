@@ -91,8 +91,8 @@ Type *cmd* and hit enter.
 Step 7)\
 Type *dl.py* and hit enter. If you are familiar with Python you may have installed an Interpreter that will now open. Just run the script from there.
 
-Note: If some links failed to download, you will find a new file in your folder, called failed.txt. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name.\
-In most cases that means that yt-dlp could not access the link/video (it’s most likely private/deleted or the link does not directly contain a video), but you can also try to download it again to make sure (just repeat the steps above).
+Note: You may find a new file in your folder called *failed.txt*. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name. If no videos failed to download, the file will be empty. Either way, you can delete this .txt-file if you want.\
+Videos appearing in this .txt-file usually could not be accessed by yt-dlp (the video is most likely private/deleted or the link does not directly contain a video), but you can also try to download it again to make sure it's not an error (just repeat the steps above).
 
 ## Downloading multiple videos at once authorizing to a Google-Sheets-Document
 
