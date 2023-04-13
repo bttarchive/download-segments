@@ -96,6 +96,6 @@ In most cases that means that yt-dlp could not access the link/video (it’s mos
 
 ## Downloading multiple videos at once authorizing to a Google-Sheets-Document
 
-This is how I archive BTT-segments for the Archive-Channel.
+This is how I archive BTT-segments for the [Archive-Channel](https://www.youtube.com/@bttarchive).
 
 Explanation hopefully soon!
