@@ -19,7 +19,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 
 - [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
 
-- [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs the most setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
+- [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
 
 ## Downloading a single video
 
