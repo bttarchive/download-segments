@@ -15,7 +15,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 
 ## Content
 
-- [Downloading a single video, needs (almost) no setup](https://github.com/bttarchive/download-segments#downloading-a-single-video)
+- [Downloading a single video at a time, needs (almost) no setup](https://github.com/bttarchive/download-segments#downloading-a-single-video)
 
 - [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
 
@@ -96,4 +96,6 @@ In most cases that means that yt-dlp could not access the link/video (it’s mos
 
 ## Downloading multiple videos at once authorizing to a Google-Sheets-Document
 
-soon
+This is how I archive BTT-segments for the Archive-Channel.
+
+Explanation hopefully soon!
