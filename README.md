@@ -64,22 +64,22 @@ Download and install Python (https://www.python.org/downloads/). The latest vers
 
 Step 2)\
 Download [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/dl.py).\
-Right-click anywhere, select “Save as…” and click Save. Make sure to select file-type "Any Type" (or anything thats end in .py) so that the script gets properly saved and not converted to another file-type.
+Open the link in a new tab, right-click anywhere, select “Save as…” and click Save. Make sure to select file-type "Any Type" (or anything that ends in .py) so that the script gets properly saved and not converted to another or unreadable file-type.
 
 Step 3) [optional]\
 Move the script to a folder in which you want to store the video-files later.
 
 Step 4)\
-Create a .txt-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names for each video, but that’s not necessary (unnamed videos will be renamed to Clip <n>). Names have to be separated by the links using a tab (↹).\
-Easy way to do this: Collect all the links on a Spreadsheet with the links in 1 column and the names in the column next to it. Copy the whole range and paste it into the .txt-file (remember: names are not necessary).
+Create a .txt-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names for each video, but that’s not necessary (unnamed videos will be renamed to Clip <*number in list*>). Names have to be separated by the links using a tab (↹).\
+Easy way to do this: Collect all the links on a Spreadsheet with the links in one column and the names in the column next to it. Copy the whole range and paste it into the .txt-file (remember: names are not necessary).
 
-Example-Screenshot (right side shows how your .txt-file should look):\
+Example-Screenshot (right side shows how your .txt-file should look if it includes names):\
 ![Screenshot 5](https://i.imgur.com/qJvHc1w.png)
 
 Important: The .txt-file has to be called/renamed to **dl.txt**, otherwise the script will not work.
 
 Step 5)\
-Open the folder with the *dl.txt* file. Then click somewhere here (where the red thing is):\
+Open the folder with the *dl.txt* and *dl.py* files. Then click somewhere here (where the red thing is):\
 ![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
 
 After clicking there it should look similar to this:\
