@@ -64,7 +64,7 @@ Download and install Python (https://www.python.org/downloads/). The latest vers
 
 Step 2)\
 Download [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/dl.py).\
-Open the link in a new tab, right-click anywhere, select “Save as…” and click Save. Make sure to select file-type "Any Type" (or anything that ends in .py) so that the script gets properly saved and not converted to another or unreadable file-type.
+Open the link in a new tab, right-click anywhere, select “Save as…” and click Save. Make sure to select file-type "Python File" or "Any Type" (or anything that ends in .py) so that the script gets properly saved and not converted to another or unreadable file-type.
 
 Step 3) [optional]\
 Move the script to a folder in which you want to store the video-files later.
