@@ -55,7 +55,7 @@ Example-Screenshot:\
 
 This downloads the full YouTube-Video and renames it to “ruined_tas.mp4”.
 
-Important: You have to specify a file-format (in this case .mp4), otherwise you won’t be able to open the file later. Other video-file-formats work just as fine (.mov, .wmv, …)
+Important: You have to specify a file-format (in this case .mp4), otherwise you won’t be able to open the file later. Other video-file-formats should work just as fine (.mov, .wmv, …).
 
 ## Downloading multiple videos at once
 
