@@ -20,7 +20,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 
 - [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments/edit/main/README.md#downloading-multiple-videos-at-once)
 
-- How I download multiple BTT-segments at once directly from a Google-Sheets-Document for the Archive, needs the most setup
+- [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs the most setup]
 
 ## Downloading a single video
 
@@ -94,3 +94,7 @@ Type *dl.py* and hit enter. If you are familiar with Python you may have install
 
 Note: If some links failed to download, you will find a new file in your folder, called failed.txt. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name.\
 In most cases that means that yt-dlp could not access the link/video (it’s most likely private/deleted or the link does not directly contain a video), but you can also try to download it again to make sure (just repeat the steps above).
+
+## Downloading multiple videos at once authorizing to a Google-Sheets-Document
+
+soon
