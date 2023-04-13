@@ -4,17 +4,15 @@ This guide/read-me is also accessible [here](https://docs.google.com/document/d/
 Please read this read-me or the document (at least the part that you want to use) before downloading anything and/or asking questions.
 If something is unclear or not working correctly, DM me on Discord (@Matze#7132).
 
----
+—
 
 Supported sites: Twitter, YouTube, Discord, Twitch, Google Drive, streamable, ... (basically every mainstream video-hosting platform). A detailed list is available [here](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
 
---- 
+—
 
 The downloading-methods I'm about to list should work on Windows 10/11, I have no clue what would need to be adjusted to make it run on Linux and/or Mac. If you know, please telle me and I'll adjust this guide accordingly.
 
 Also: All of this only works if the link is publicly available, i.e. you can’t download private Twitter-Clips or private YouTube-videos with this method.
-
---- 
 
 ## Content
 
