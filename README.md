@@ -22,7 +22,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
   - could be useful if you need to download a lot of segments, e.g. for a BTT-video.
 
 - [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
-  - only really useful if you don't want to create the .txt-file fromn the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
+  - only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
 
 ## Downloading a single video
 
