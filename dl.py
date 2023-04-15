@@ -23,7 +23,7 @@ with open('failed.txt', 'w') as g:
     for i in range(0, len(lines)):
         try:
             print('Trying to download video', i + 1, 'out of', len(lines))
-            filename = lines[i][1]
+            filename = 'Videos/' + lines[i][1]
             link = lines[i][0]
 
             try:
