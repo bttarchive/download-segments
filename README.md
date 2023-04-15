@@ -72,7 +72,12 @@ Open the link in a new tab, right-click anywhere, select “Save as…” and cl
 Step 3) [optional]\
 Move the script to a folder in which you want to store the video-files later.
 
-Step 4)\
+Step 4) [optional]\
+If you want to download parts of YouTube-videos instead of the whole videos, you need to install ffmpeg. Go to https://www.gyan.dev/ffmpeg/builds/ and download the latest file that is called “ffmpeg-git-full.7z”. After downloading it, unzip the folder, open it and go into the subfolder "bin". In there you should find 3 files (ffprobe, ffplay, ffmpeg). Move these 3 files into the folder with the script.
+
+If you did this step, yt-dlp will then download a 90-second-clip instead of the full YouTube-video if it is timestamped, starting 5 seconds before the given timestamp and ending 85 seconds after it.
+
+Step 5)\
 Create a .txt-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names for each video, but that’s not necessary (unnamed videos will be renamed to Clip <*number in list*>). Names have to be separated by the links using a tab (↹).\
 Easy way to do this: Collect all the links on a Spreadsheet with the links in one column and the names in the column next to it. Copy the whole range and paste it into the .txt-file (remember: names are not necessary).
 
@@ -81,17 +86,17 @@ Example-Screenshot (right side shows how your .txt-file should look if it includ
 
 Important: The .txt-file has to be called/renamed to **dl.txt**, otherwise the script will not work.
 
-Step 5)\
-Open the folder with the *dl.txt* and *dl.py* files. Then click somewhere here (where the red thing is):\
+Step 6)\
+Open the folder with the *dl.txt* and *dl.py* files (depending on Step 4) there could be more files in your folder). Then click somewhere here (where the red thing is):\
 ![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
 
 After clicking there it should look similar to this:\
 ![Screenshot 2](https://i.imgur.com/Qczpa7F.png)
 
-Step 6)\
+Step 7)\
 Type *cmd* and hit enter.
 
-Step 7)\
+Step 8)\
 Type *dl.py* and hit enter. If you are familiar with Python you may have installed an IDE that will now open. Just run the script from there.
 
 Note: You may find a new file in your folder called *failed.txt*. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name. If no videos failed to download, the file will be empty. Either way, you can delete this .txt-file if you want.\
