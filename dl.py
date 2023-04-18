@@ -9,7 +9,7 @@ from yt_dlp import YoutubeDL
 from yt_dlp.utils import download_range_func
 
 
-with open('dl.txt', "r") as f:
+with open('dl.txt', 'r') as f:
     lines = [line.rstrip().split('\t') for line in f]
 
 for i in range(0, len(lines)):
