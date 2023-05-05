@@ -34,8 +34,8 @@ with open('failed.txt', 'w') as g:
                     start_second = int(timestamp) - 5
                     end_second = int(timestamp) + 85
                     ydl_opts = {
-                        'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                                  'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                        'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                                  'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
                         'downloader': 'ffmpeg',
                         'download_ranges': download_range_func(None, [(start_second, end_second)]),
@@ -44,8 +44,8 @@ with open('failed.txt', 'w') as g:
                         ydl.download([lines[i][0]])
                 else:
                     ydl_opts = {
-                        'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                                  'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                        'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                                  'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
                     }
                     with YoutubeDL(ydl_opts) as ydl:
@@ -53,8 +53,8 @@ with open('failed.txt', 'w') as g:
 
             except:
                 ydl_opts = {
-                    'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                              'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                    'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                              'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                     'outtmpl': filename + '.%(ext)s',
                 }
                 with YoutubeDL(ydl_opts) as ydl:
