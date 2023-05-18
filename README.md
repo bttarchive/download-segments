@@ -51,7 +51,7 @@ Example-Screenshot:\
 ---
 
 Alternative to Step 5), if you want to force a certain file-format (and rename your video-files):\
-Type *yt-dlp “LINK” -o <NAME.FILE-FORMAT> -f <FILE-FORMAT>*
+Type *yt-dlp “LINK” -o <NAME.FILE-FORMAT> -f \<FILE-FORMAT>*
 
 Example-Screenshot:\
 ![Screenshot 4](https://i.imgur.com/LU9ysZU.png)
