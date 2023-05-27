@@ -37,7 +37,8 @@ with open('failed.txt', 'w') as g:
                         'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
                                   'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
-                        'downloader': 'ffmpeg',
+                        'external_downloader': 'ffmpeg',
+                        'external_downloader_args': {'ffmpeg': ['-filter:v', 'fps=60', '-vcodec', 'h264']},
                         'download_ranges': download_range_func(None, [(start_second, end_second)]),
                     }
                     with YoutubeDL(ydl_opts) as ydl:
@@ -47,6 +48,8 @@ with open('failed.txt', 'w') as g:
                         'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
                                   'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
+                        'external_downloader': 'ffmpeg',
+                        'external_downloader_args': {'ffmpeg': ['-filter:v', 'fps=60', '-vcodec', 'h264']},
                     }
                     with YoutubeDL(ydl_opts) as ydl:
                         ydl.download([lines[i][0]])
