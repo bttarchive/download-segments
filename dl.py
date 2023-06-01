@@ -13,8 +13,13 @@ with open('dl.txt', 'r', encoding="utf8") as f:
     lines = [line.rstrip().split('\t') for line in f]
 
 for i in range(0, len(lines)):
-    if len(lines[i]) == 1:
-        lines[i].append('Clip ' + str(i + 1))
+    lines[i].extend(['', ''])
+    if lines[i][1] == '':
+        lines[i][1] = 'Clip ' + str(i + 1)
+
+for i in range(0, len(lines)):
+    if lines[i][2] == '':
+        lines[i][2] = '80'
 
 substring1 = "youtu"
 substring2 = "t="
@@ -32,7 +37,7 @@ with open('failed.txt', 'w') as g:
                     if timestamp[-1:] == 's':
                         timestamp = timestamp[:-1]
                     start_second = int(timestamp) - 5
-                    end_second = int(timestamp) + 85
+                    end_second = int(timestamp) + int(lines[i][2]) + 5
                     ydl_opts = {
                         'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
                                   'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
