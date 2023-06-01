@@ -77,14 +77,14 @@ Move the script to a folder in which you want to store the video-files later.
 Step 4) [optional]\
 If you want to download parts of YouTube-videos instead of the whole videos, you need to install ffmpeg. Go to https://www.gyan.dev/ffmpeg/builds/ and download the latest file that is called “ffmpeg-git-full.7z”. After downloading it, unzip the folder, open it and go into the subfolder "bin". In there you should find 3 files (ffprobe, ffplay, ffmpeg). Move these 3 files into the folder with the script.
 
-If you did this step, yt-dlp will then download a 90-second-clip instead of the full YouTube-video if it is timestamped, starting 5 seconds before the given timestamp and ending 85 seconds after it.
+If you did this step, yt-dlp can now download ranges of YouTube-videos if they are timestamped, starting 5 seconds before the given timestamp and ending 85 seconds after it. If you want the clips to be a different length, specify so in the .txt-file (see next step).
 
 Step 5)\
-Create a .txt-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names for each video, but that’s not necessary (unnamed videos will be renamed to Clip <*number in list*>). Names have to be separated by the links using a tab (↹).\
-Easy way to do this: Collect all the links on a Spreadsheet with the links in one column and the names in the column next to it. Copy the whole range and paste it into the .txt-file (remember: names are not necessary).
+Create a .txt-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names and desired video-length (in seconds) for each video (this part only works for timestamped YouTube-videos), but both are not necessary (unnamed videos will be renamed to Clip <*number in list*>, unspecified video-length will be 90 seconds). Names and video-length have to be separated by the links using a tab (↹).\
+Easy way to do this: Collect all the links on a Spreadsheet with the links in one column and the names in the column next to it (and desired video-length next to that). Copy the whole range and paste it into the .txt-file (remember: names and video-length are not necessary).
 
-Example-Screenshot (right side shows how your .txt-file should look if it includes names):\
-![Screenshot 5](https://i.imgur.com/qJvHc1w.png)
+Example-Screenshot (right side shows how your .txt-file should look if it includes names and video-lengths):\
+![Screenshot 5](https://i.imgur.com/fKdgFcq.png)
 
 Important: The .txt-file has to be called/renamed to **dl.txt**, otherwise the script will not work.
 
