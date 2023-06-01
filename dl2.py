@@ -9,12 +9,17 @@ from yt_dlp import YoutubeDL
 from yt_dlp.utils import download_range_func
 
 
-with open('dl.txt', "r", encoding="utf8") as f:
+with open('dl.txt', 'r', encoding="utf8") as f:
     lines = [line.rstrip().split('\t') for line in f]
 
 for i in range(0, len(lines)):
-    if len(lines[i]) == 1:
-        lines[i].append('Clip ' + str(i + 1))
+    lines[i].extend(['', ''])
+    if lines[i][1] == '':
+        lines[i][1] = 'Clip ' + str(i + 1)
+
+for i in range(0, len(lines)):
+    if lines[i][2] == '':
+        lines[i][2] = '80'
 
 substring1 = "youtu"
 substring2 = "t="
@@ -23,7 +28,7 @@ with open('failed.txt', 'w') as g:
     for i in range(0, len(lines)):
         try:
             print('Trying to download video', i + 1, 'out of', len(lines))
-            filename = lines[i][1]
+            filename = 'Videos/' + lines[i][1]
             link = lines[i][0]
 
             try:
@@ -32,10 +37,10 @@ with open('failed.txt', 'w') as g:
                     if timestamp[-1:] == 's':
                         timestamp = timestamp[:-1]
                     start_second = int(timestamp) - 5
-                    end_second = int(timestamp) + 85
+                    end_second = int(timestamp) + int(lines[i][2]) + 5
                     ydl_opts = {
-                        'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                                  'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                        'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                                  'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
                         'downloader': 'ffmpeg',
                         'download_ranges': download_range_func(None, [(start_second, end_second)]),
@@ -44,8 +49,8 @@ with open('failed.txt', 'w') as g:
                         ydl.download([lines[i][0]])
                 else:
                     ydl_opts = {
-                        'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                                  'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                        'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                                  'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                         'outtmpl': filename + '.%(ext)s',
                     }
                     with YoutubeDL(ydl_opts) as ydl:
@@ -53,8 +58,8 @@ with open('failed.txt', 'w') as g:
 
             except:
                 ydl_opts = {
-                    'format': '(bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best)[ext=mp4] / ' +
-                              'bv*[fps>30][height>720]/bv*[fps>30][height<=720]/bv*[height>720]/bv*/best',
+                    'format': '(bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best)[ext=mp4] / ' +
+                              'bv*[fps>30][height>720]+ba/bv*[fps>30][height<=720]+ba/bv*[height>720]+ba/bv*+ba/best',
                     'outtmpl': filename + '.%(ext)s',
                 }
                 with YoutubeDL(ydl_opts) as ydl:
