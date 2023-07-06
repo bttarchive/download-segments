@@ -4,6 +4,7 @@ import sys
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "yt_dlp"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "yt_dlp"])
 
 from yt_dlp import YoutubeDL
 from yt_dlp.utils import download_range_func
