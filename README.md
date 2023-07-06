@@ -71,7 +71,7 @@ Open the link in a new tab, right-click anywhere, select “Save as…” and cl
 
 If you do not want to automatically convert your videos to 60fps, download [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/dl2.py) instead (rename it to dl.py or use dl2.py instead of dl.py whenever mentioned).
 
-*[2023-07-06: Added 3rd version. This version always updates to the latest unofficial yt-dlp-release. That version usually includes several bugfixes that did not make it into the latest release (e.g. a workaround to download Twitter-clips).]*
+*[2023-07-06: Added 3rd version. This version always updates to the latest unofficial yt-dlp-release, which usually includes several bugfixes that did not make it into the latest release (e.g. a workaround to download Twitter-clips).]*
 
 Step 3) [optional]\
 Move the script to a folder in which you want to store the video-files later.
