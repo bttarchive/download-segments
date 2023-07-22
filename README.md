@@ -1,3 +1,5 @@
+# SCRIPTS ARE OUTDATED ATM / PLS PING ME ON DISCORD IF U WANNA USE THEM, I HAVE WORKING VERSIONS BUT THEY ARE NOT STABLE
+
 # Simple step-by-step guide on how to download (multiple) videos in the highest quality that has audio via yt-dlp
 
 Please read this read-me (or at least the part that you want to use) before downloading anything and/or asking questions.
