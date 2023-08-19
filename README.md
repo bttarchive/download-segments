@@ -58,7 +58,7 @@ Alternative to Step 5) if you want to rename your video-files directly:\
 Type *yt-dlp “LINK” -o ”NAME”.%(ext)s* (the last part makes sure you can open the file later).
 
 Example-Screenshot:\
-![Screenshot 4](https://i.imgur.com/dcHrGoi.png)
+![Screenshot 4](https://i.imgur.com/1bnHUcH.png)
 
 ## Downloading multiple videos at once
 
