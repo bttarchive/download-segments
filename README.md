@@ -51,17 +51,14 @@ Example-Screenshot:\
 ![Screenshot 3](https://i.imgur.com/poCle5k.png)
 
 Note: If this doesn't work, try typing *yt-dlp --update-to nightly*, and then try step 5) again.
+
 ---
 
-Alternative to Step 5), if you want to rename your video-files directly:\
-Type *yt-dlp “LINK” -o <NAME>.%(ext)s* (the last part makes sure you can open the file later).
+Alternative to Step 5) if you want to rename your video-files directly:\
+Type *yt-dlp “LINK” -o ”NAME”.%(ext)s* (the last part makes sure you can open the file later).
 
 Example-Screenshot:\
-![Screenshot 4](https://i.imgur.com/LU9ysZU.png)
-
-This downloads the full YouTube-Video and renames it to “ruined_tas.mp4”. If you don't want to rename the video, just remove the *-o <NAME.FILE-FORMAT>*-part.
-
-Important: You have to specify the same file-format (in this case .mp4), otherwise you probably won’t be able to open the file later. Other video-file-formats should work just as fine (.mov, .wmv, …).
+![Screenshot 4](https://i.imgur.com/dcHrGoi.png)
 
 ## Downloading multiple videos at once
 
