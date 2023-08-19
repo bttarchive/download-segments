@@ -47,15 +47,14 @@ Type *cmd* and hit enter.
 Step 5)\
 Type *yt-dlp “LINK”* and hit enter (sometimes you don't need to put quotation marks around the link).
 
-Note: If this doesn't work, try typing *yt-dlp --update-to nightly*, and then try step 5) again.
-
 Example-Screenshot:\
 ![Screenshot 3](https://i.imgur.com/poCle5k.png)
 
+Note: If this doesn't work, try typing *yt-dlp --update-to nightly*, and then try step 5) again.
 ---
 
-Alternative to Step 5), if you want to force a certain file-format (and rename your video-files):\
-Type *yt-dlp “LINK” -o <NAME.FILE-FORMAT> -f \<FILE-FORMAT>*
+Alternative to Step 5), if you want to rename your video-files directly:\
+Type *yt-dlp “LINK” -o <NAME>.%(ext)s* (the last part makes sure you can open the file later).
 
 Example-Screenshot:\
 ![Screenshot 4](https://i.imgur.com/LU9ysZU.png)
