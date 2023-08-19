@@ -18,13 +18,13 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 ## Content
 
 - [Downloading a single video at a time, needs (almost) no setup](https://github.com/bttarchive/download-segments#downloading-a-single-video)
-  - only useful if you rarely download videos and/or are too lazy to setup the other methods.
+  - Useful if you rarely download videos and/or are too lazy to setup the second method. Also VERY useful if Twitter decides to shit the bed again.
 
 - [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
-  - could be useful if you need to download a lot of segments, e.g. for a BTT-video.
+  - Could be useful if you need to download a lot of segments, e.g. for a BTT-video.
 
 - [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
-  - only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
+  - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
 
 ## Downloading a single video
 
