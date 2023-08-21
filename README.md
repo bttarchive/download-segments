@@ -1,4 +1,4 @@
-# SCRIPTS ARE OUTDATED ATM / PLS PING ME ON DISCORD IF U WANNA USE THEM, I HAVE WORKING VERSIONS BUT THEY ARE NOT STABLE
+# SCRIPTS MENTIONED IN METHOD 2 MIGHT BE OUTDATED, WORKING ON A FIX / METHOD 1 WORKING THO
 
 # Simple step-by-step guide on how to download (multiple) videos in the highest quality that has audio via yt-dlp
 
