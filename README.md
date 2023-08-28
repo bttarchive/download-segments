@@ -50,7 +50,7 @@ Type *yt-dlp “LINK”* and hit enter (sometimes you don't need to put quotatio
 Example-Screenshot:\
 ![Screenshot 3](https://i.imgur.com/xwInm6j.png)
 
-Note: If this doesn't work, try updating yt-dlp by typing *yt-dlp -U* and then repeating step 5). If this doesn't work as well, you can try updating to the nightly version, which is the unofficial/unstable update by typing *yt-dlp --update-to nightly*, and then try step 5) again.
+Note: If this doesn't work, try updating yt-dlp by typing *yt-dlp -U*, hitting enter and then repeating step 5). If this doesn't work as well, you can try updating to the nightly version, which is the unofficial/unstable update by typing *yt-dlp --update-to nightly*, hitting enter and then try step 5) again.
 
 ---
 
