@@ -21,7 +21,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 - [3) Downloading multiple videos, renaming them and trimming the output files, needs some setup](https://github.com/bttarchive/download-segments#3-downloading-multiple-videos-renaming-them-and-trimming-the-output-files)
   - If you want to download multiple videos at one time, rename them automatically, and only download sections around given timestamps, use this method. Could be useful if you need to download a lot of segments, e.g. for a BTT-video.
 
-- [4) Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#3-downloading-multiple-videos-renaming-them-and-trimming-the-output-files)
+- [4) Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
   - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
 
 ## 1) Downloading a single video
