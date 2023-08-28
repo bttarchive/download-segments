@@ -1,4 +1,4 @@
-# SCRIPTS MENTIONED IN METHOD 2 MIGHT BE OUTDATED, WORKING ON A FIX / METHOD 1 WORKING THO
+# Updates to scripts soon, most likely aren't working atm
 
 # Simple step-by-step guide on how to download (multiple) videos in the highest quality that has audio via yt-dlp
 
