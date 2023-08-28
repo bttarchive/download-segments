@@ -3,7 +3,7 @@
 # Simple step-by-step guide on how to download (multiple) videos in the highest quality that has audio via yt-dlp
 
 Please read this read-me (or at least the part that you want to use) before downloading anything and/or asking questions.
-If something is unclear or not working correctly, DM me on Discord (@Matze#7132).
+If something is unclear or not working correctly, DM me on Discord (@matz3).
 
 —
 
