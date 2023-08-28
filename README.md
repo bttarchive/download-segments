@@ -13,7 +13,10 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 ## Content
 
 - [Downloading a single video at a time, needs (almost) no setup](https://github.com/bttarchive/download-segments#downloading-a-single-video)
-  - Useful if you rarely download videos and/or are too lazy to setup the second method. Also VERY useful if Twitter decides to shit the bed again.
+  - If you rarely download videos and need an all-in-solution for exactly that, use this. Very useful method if Twitter decides to shit the bed again, as yt-dlp usually has bypasses ready within hours.
+
+- [Downloading multiple videos, needs almost no setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos)
+  - If you want to download multiple videos at one time and don't care about renaming them or trimming them directly, use this method.
 
 - [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
   - Could be useful if you need to download a lot of segments, e.g. for a BTT-video.
