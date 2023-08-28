@@ -18,7 +18,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 - [Downloading multiple videos, needs almost no setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos)
   - If you want to download multiple videos at one time and don't care about renaming them or trimming them directly, use this method.
 
-- [Downloading multiple videos at once, needs some setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
+- [Downloading multiple videos, renaming them and trimming the output files](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once)
   - Could be useful if you need to download a lot of segments, e.g. for a BTT-video.
 
 - [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
@@ -89,7 +89,7 @@ Example-Screenshot:\
 
 Note: If this doesn't work, try updating yt-dlp by typing *yt-dlp -U*, hitting enter and then repeating step 6). If this doesn't work as well, you can try updating to the nightly version, which is the unofficial/unstable update by typing *yt-dlp --update-to nightly*, hitting enter and then try step 6) again. If this still doesn't work, you most likely provided at least 1 link that is not-downloadable, try again without that link.
 
-## Downloading multiple videos at once
+## Downloading multiple videos, renaming them and trimming the output files
 
 Step 1)\
 Download and install Python (https://www.python.org/downloads/). The latest version should usually work, the last one I tested that certainly works is v3.11.3.
