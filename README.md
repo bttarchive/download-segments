@@ -55,6 +55,37 @@ Type *yt-dlp “LINK” -o ”NAME”.%(ext)s* (the last part makes sure you can
 Example-Screenshot:\
 ![Screenshot 4](https://i.imgur.com/1bnHUcH.png)
 
+## Downloading multiple videos
+
+This works the same way as downloading a single video does, but instead of entering a URL in the command prompt, you enter a file-name that contains yours URLs.
+
+Step 1)\
+Go to https://github.com/yt-dlp/yt-dlp/releases and download the latest file that is called “yt-dlp.exe”.
+
+Step 2) [optional]\
+Move the file to a folder in which you want to store the video-files later.
+
+Step 3)\
+Prepare a .txt-file with 1 URL per line and save it in the same folder where the yt-dlp.exe is.
+
+Step 4)\
+Open the folder with the “yt-dlp.exe” and .txt-file. Then click somewhere here (where the red thing is):\
+![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
+
+After clicking there it should look similar to this:\
+![Screenshot 2](https://i.imgur.com/Qczpa7F.png)
+
+Step 5)\
+Type *cmd* and hit enter.
+
+Step 6)\
+Type *yt-dlp -a <NAME>.txt* and hit enter.
+
+Example-Screenshot:\
+![Screenshot 3](https://i.imgur.com/qvHlXcU.png)
+
+Note: If this doesn't work, try updating yt-dlp by typing *yt-dlp -U*, hitting enter and then repeating step 6). If this doesn't work as well, you can try updating to the nightly version, which is the unofficial/unstable update by typing *yt-dlp --update-to nightly*, hitting enter and then try step 6) again. If this still doesn't work, you most likely provided at least 1 link that is not-downloadable, try again without that link.
+
 ## Downloading multiple videos at once
 
 Step 1)\
