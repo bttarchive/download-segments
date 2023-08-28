@@ -79,7 +79,7 @@ Step 5)\
 Type *cmd* and hit enter.
 
 Step 6)\
-Type *yt-dlp -a <NAME>.txt* and hit enter.
+Type *yt-dlp -a file_name.txt* and hit enter.
 
 Example-Screenshot:\
 ![Screenshot 3](https://i.imgur.com/qvHlXcU.png)
