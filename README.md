@@ -13,13 +13,13 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 ## Content
 
 1. [Downloading a single video, needs (almost) no setup](https://github.com/bttarchive/download-segments#1-downloading-a-single-video)
-    - If you rarely download videos and need an all-in-solution for exactly that, use this. Very useful method if Twitter decides to shit the bed again, as yt-dlp usually has bypasses ready within hours.
+    - If you rarely download videos and need an all-in-solution for exactly that, use this method. Very useful method if Twitter decides to shit the bed again, as yt-dlp usually has bypasses ready within hours.
 
 2. [Downloading multiple videos, needs almost no setup](https://github.com/bttarchive/download-segments#2-downloading-multiple-videos)
-    - If you want to download multiple videos at one time and don't care about renaming them or trimming them directly, use this method.
+    - If you want to download multiple videos at one time, use this method.
 
-3. [Downloading multiple videos, renaming them and trimming the output files, needs some setup](https://github.com/bttarchive/download-segments#3-downloading-multiple-videos-renaming-them-and-trimming-the-output-files)
-    - If you want to download multiple videos at one time, rename them automatically, and only download sections around given timestamps, use this method. Could be useful if you need to download a lot of segments, e.g. for a BTT-video.
+3. [Downloading multiple videos with extra features](https://github.com/bttarchive/download-segments#3-downloading-multiple-videos-with-extra-features)
+    - If you want to download multiple videos at one time, rename them automatically, only download sections around given timestamps and potentially convert them to `.mp4`, use this method. Could be useful if you want to make a BTT-video.
 
 4. [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
     - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
@@ -89,7 +89,7 @@ Example-Screenshot:\
 
 Note: If this doesn't work, try updating yt-dlp by typing `yt-dlp -U`, hitting enter and then repeating step 6). If this doesn't work as well, you can try updating to the nightly version, which is the unofficial/unstable update by typing `yt-dlp --update-to nightly`, hitting enter and then try step 6) again. If this still doesn't work, you most likely provided at least 1 link that is not-downloadable, try again without that link.
 
-## 3) Downloading multiple videos, renaming them and trimming the output files
+## 3) Downloading multiple videos with extra features
 
 Step 1)\
 Download and install Python (https://www.python.org/downloads/). The latest version should usually work, the last one I tested that certainly works is v3.11.3.
