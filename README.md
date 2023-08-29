@@ -129,8 +129,8 @@ Type `dl.py` and hit enter. If you are familiar with Python you may have install
 ---
 
 Optional features:
-- update packages: If you want to automatically update the packages that are used by the script, add a new line to your `dl.txt`-file with `UP`.
-- convert to mp4: If you want ffmpeg to automatically convert your video-files to `mp4`, add a new line to your `dl.txt`-file with `CV`.
+- update packages: If you want to automatically update the packages that are used by the script, add a new line to your `dl.txt`-file that says `UP`.
+- convert to mp4: If you want ffmpeg to automatically convert your video-files to `mp4`, add a new line to your `dl.txt`-file that says `CV`.
     - If you want to use both these options together, enter `UP+CV` instead.
 Example for using both features:
 ![Screenshot 5](https://i.imgur.com/Ig8WMmv.png)
