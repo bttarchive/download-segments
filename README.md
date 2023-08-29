@@ -133,7 +133,7 @@ Optional features:
 - convert to mp4: If you want ffmpeg to automatically convert your video-files to `mp4`, add a new line to your `dl.txt`-file that says `CV`.
     - If you want to use both these options together, enter `UP+CV` instead.
 
-Example for using both features:
+Example-Screenshot, the `.txt`-file should look like this when using both optional features:
 ![Screenshot 5](https://i.imgur.com/Ig8WMmv.png)
 
 Note: After running the script, you may find a new file in your folder called `failed.txt`. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name. If no videos failed to download, the file will be empty. Either way, you can delete this file if you want.\
