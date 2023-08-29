@@ -126,6 +126,8 @@ Type `cmd` and hit enter.
 Step 8)\
 Type `dl.py` and hit enter. If you are familiar with Python you may have installed an IDE that will now open. Just run the script from there.
 
+---
+
 Optional features:
 - update packages: If you want to automatically update the packages that are used by the script, add a new line to your `dl.txt`-file with `UP`.
 - convert to mp4: If you want ffmpeg to automatically convert your video-files to `mp4`, add a new line to your `dl.txt`-file with `CV`.
