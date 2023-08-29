@@ -131,9 +131,11 @@ Type `dl.py` and hit enter. If you are familiar with Python you may have install
 Optional features:
 - update packages: If you want to automatically update the packages that are used by the script, add a new line to your `dl.txt`-file with `UP`.
 - convert to mp4: If you want ffmpeg to automatically convert your video-files to `mp4`, add a new line to your `dl.txt`-file with `CV`.
-    - If you want to use both these options together, enter `UP+CV` into the new line.
+    - If you want to use both these options together, enter `UP+CV` instead.
+Example for using both features:
+![Screenshot 5](https://i.imgur.com/Ig8WMmv.png)
 
-Note: You may find a new file in your folder called `failed.txt`. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name. If no videos failed to download, the file will be empty. Either way, you can delete this file if you want.\
+Note: After running the script, you may find a new file in your folder called `failed.txt`. In it you can find the links to the videos that failed to download with their iterated number in the list of links and their (un-)specified name. If no videos failed to download, the file will be empty. Either way, you can delete this file if you want.\
 Videos appearing in `failed.txt` usually could not be accessed by yt-dlp (the video is most likely private/deleted or the link does not directly contain a video), but you can also try to download it again to make sure it's not an error (just repeat the steps above).
 
 ## 4) Downloading multiple videos at once authorizing to a Google-Sheets-Document
