@@ -153,8 +153,8 @@ Explanation hopefully soon!
 This is basically method 3) but the script downloads mp3-files instead of video-files.\
 The steps are the exact same as in method 3), but you need [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/songs.py) instead.
 
-So, download python, the script and ffmpeg, then create a `dl.txt`-file that contains the songs to download. You can also specify filenames just as explained in mehtod 3), but timestamps are not implemented in this script, so these will be ignored. If no filenames are specified, the songs get named Song <*number in list*>. After creating `dl.txt` just run `songs.py` in the command prompt (`cmd`).
+So, download python, the script and ffmpeg, then create a `dl.txt`-file that contains the songs to download. You can also specify filenames just as explained in method 3), but timestamps are not implemented in this script, so these will be ignored. If no filenames are specified, the songs get named Song <*number in list*>. After creating `dl.txt` just run `songs.py` in the command prompt (`cmd`).
 
-You can also update the included packages by adding `OPTIONS UP` as the last line in `dl.txt`. The `CV` and `FPS` features are obviously not working with this script, as there are no videos to scale the FPS and the fileformat is hard-coded as mp3 (see below).
+You can also update the included packages by adding `OPTIONS UP` as the last line in `dl.txt`. The `CV` and `FPS` features are obviously not working with this script, as there are no videos to scale the FPS and the fileformat is hard-coded as mp3.
 
 If you want your songs to be in another format than mp3 you can either edit the script yourself (there's only 1 instance of `mp3` in the script that would nbeed to be changed) or DM me about it and I'll provide you with an updated script.
