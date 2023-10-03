@@ -22,7 +22,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 4. [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
     - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
   
-5. [Downloading multiple songs, needs almost no setup](https://github.com/bttarchive/download-segments#5-downloading-multiple-songs)
+5. [Downloading multiple songs](https://raw.githubusercontent.com/bttarchive/download-segments/main/songs.py)
 
 ## 1) Downloading a single video
 
@@ -154,5 +154,7 @@ This is basically method 3) but the script downloads mp3-files instead of video-
 The steps are the exact same as in method 3), but you need [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/songs.py) instead.
 
 So, download python, the script and ffmpeg, then create a `dl.txt`-file that contains the songs to download. You can also specify filenames just as explained in mehtod 3), but timestamps are not implemented in this script, so these will be ignored. If no filenames are specified, the songs get named Song <*number in list*>. After creating `dl.txt` just run `songs.py` in the command prompt (`cmd`).
+
+You can also update the included packages by adding `OPTIONS UP` as the last line in `dl.txt`. The `CV` and `FPS` features are obviously not working with this script, as there are no videos to scale the FPS and the fileformat is hard-coded as mp3 (see below).
 
 If you want your songs to be in another format than mp3 you can either edit the script yourself (there's only 1 instance of `mp3` in the script that would nbeed to be changed) or DM me about it and I'll provide you with an updated script.
