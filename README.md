@@ -22,7 +22,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 4. [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
     - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
   
-5. [Downloading multiple songs](https://raw.githubusercontent.com/bttarchive/download-segments/main/songs.py)
+5. [Downloading multiple songs](https://github.com/bttarchive/download-segments#5-downloading-multiple-songs)
 
 ## 1) Downloading a single video
 
