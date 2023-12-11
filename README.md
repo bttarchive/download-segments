@@ -20,7 +20,7 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
     - If you want to download multiple videos at one time, rename them automatically, only download sections around given timestamps and potentially convert them to `.mp4`, use this method. Also supports automatically updating the packages that are used inside the script. Very useful if you want to make a BTT-video.
 
 4. [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
-    - Only really useful if you don't want to create the .txt-file from the 2nd method and instead want to directly read the links + names from a Google-Sheets-Document.
+    - If you don't want to manually create the .txt-file from the 2nd method and instead want to directly read the links from a Google-Sheets-Document, use this method. Especially useful if you have some sort of dynamic list of links that gets automatically created by the Google-Sheets-Document. This is also the method I currently use to archive segments for the BTT-Archive.
   
 5. [Downloading multiple songs](https://github.com/bttarchive/download-segments#5-downloading-multiple-songs)
     - Method to download the songs for your BTT-video.
