@@ -154,7 +154,8 @@ Step 8)\
 Type `cmd` and hit enter.
 
 Step 9)\
-Type `dl.py` and hit enter. If you are familiar with Python you may have installed an IDE that will now open. Just run the script from there.
+Type `dl.py` and hit enter. If you downloaded the `dl_shuffle`-script, type `dl_shuffly.py` instead.\
+If you are familiar with Python you may have installed an IDE that will now open. Just run the script from there.
 
 ---
 
