@@ -121,7 +121,7 @@ All of the following steps are also described here, which is also the tool you w
     Note: There might be a warning-sign you have to read before you can actually type the command.\
     3.4.4: Save the file as `.env` (or rename it to `.env` after saving).
 
-3.5: Open `cmd` by clicking here and run the setup by typing `npm run setup`.\
+3.5: Open `cmd` by clicking here (your file-path might be called differently) and typing `cmd`. Hit enter and run the setup by typing `npm run setup`.\
 ![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
 
 3.6: After running the setup, start the server by typing `npm run start` in the `cmd`-window. Keep this window open until all of your videos have been downloaded.
