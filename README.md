@@ -105,15 +105,36 @@ Open the link in a new tab, right-click anywhere, select “Save as…” and cl
 
 **IMPORTANT**: If you want to download ANY `cdn.discordapp.com/...`-links with this method, download [this script](https://raw.githubusercontent.com/bttarchive/download-segments/main/dl_shuffle.py) instead.
 
-Step 3) [optional]\
+Step 3) [only needed if you downloaded the `dl_shuffle.py`-script mentioned directly above this line]\
+All of the following steps are also described here, which is also the tool you will be using: https://github.com/ShufflePerson/Discord_CDN
+
+3.1: Download and install `npm` (might be called `NodistSetup-0.10.3.exe` or similar) from here https://github.com/nodists/nodist/releases. Double-click the downloaded file and follow the instructions presented to you.
+
+3.2: Download this ZIP-folder (https://github.com/ShufflePerson/Discord_CDN/archive/refs/heads/master.zip) and extract it somewhere.
+
+3.3: Open the `.env.example`-file. If you don't see a file with that exact name, click `View` -> `Show` -> `File name extensions` in the Windows Explorer.
+
+3.4: Enter your Discord-Token so that the file reads `TOKEN=here_is_my_token`. Your token can be found as follows:\
+    3.4.1: Open Discord on your Browser.\
+    3.4.2: Open the Dev Tools (press F12 or right-click -> Inspect Element).\
+    3.4.3: Go to the Console Tab (found at the top) and paste in the following command: `console.log((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken());`\
+    Note: There might be a warning-sign you have to read before you can actually type the command.\
+    3.4.4: Save the file as `.env` (or rename it to `.env` after saving).
+
+3.5: Open `cmd` by clicking here and run the setup by typing `npm run setup`.\
+![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
+
+3.6: After running the setup, start the server by typing `npm run start` in the `cmd`-window. Keep this window open until all of your videos have been downloaded.
+
+Step 4) [optional]\
 Move the script to a folder in which you want to store the video-files later.
 
-Step 4)\
+Step 5)\
 Get ffmpeg. Go to https://www.gyan.dev/ffmpeg/builds/ and download the latest file that is called `ffmpeg-git-full.7z`. After downloading it, unzip the folder, open it and go into the subfolder `bin`. In there you should find 3 files (`ffprobe`, `ffplay`, `ffmpeg`). Move these 3 files into the folder with the script.
 
 yt-dlp will now try to download ranges of YouTube- and Twitch-videos if they are timestamped. For YouTube-videos, the downloaded section will start 5 seconds before the given timestamp and ending 85 seconds after it, but since Twitch VODs are stored in chunks, this does not work and the downloaded sections will be bigger. If you want the clips to be a different length, specify so in the `.txt`-file (see next step).
 
-Step 5)\
+Step 6)\
 Create a `.txt`-file that contains the links to the videos you want to download (1 link per line) in the same folder. You can also include names and desired video-length (in seconds) for each video, but both are not necessary (unnamed videos will be renamed to Clip <*number in list*>, unspecified video-length will be 90 seconds or the full video). Names and video-length have to be separated by the links using a tab (↹).\
 Here's an easy way to do this: Collect all the links on a Spreadsheet with the links in one column, the names in the column next to it and desired video-length next to that. Copy the whole range and paste it into the .txt-file (remember: names and video-length are not necessary).
 
@@ -122,17 +143,17 @@ Example-Screenshot (right side shows how your .txt-file should look if it includ
 
 Important: The `.txt`-file has to be called/renamed to **dl.txt**, otherwise the script will not work.
 
-Step 6)\
+Step 7)\
 Open the folder with the `dl.txt`, `dl.py` and 3 `ffmpeg`-related files. Then click somewhere here (where the red thing is):\
 ![Screenshot 1](https://i.imgur.com/gGYrlBH.png)
 
 After clicking there it should look similar to this:\
 ![Screenshot 2](https://i.imgur.com/Qczpa7F.png)
 
-Step 7)\
+Step 8)\
 Type `cmd` and hit enter.
 
-Step 8)\
+Step 9)\
 Type `dl.py` and hit enter. If you are familiar with Python you may have installed an IDE that will now open. Just run the script from there.
 
 ---
