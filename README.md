@@ -112,7 +112,7 @@ All of the following steps are also described here, which is also the tool you w
 
 3.2: Download this ZIP-folder (https://github.com/ShufflePerson/Discord_CDN/archive/refs/heads/master.zip) and extract it somewhere.
 
-3.3: Open the `.env.example`-file. If you don't see a file with that exact name, click `View` -> `Show` -> `File name extensions` in the Windows Explorer.
+3.3: Open the `.env.example`-file within the now extracte folder. If you don't see a file with that exact name, click `View` -> `Show` -> `File name extensions` in the Windows Explorer.
 
 3.4: Enter your Discord-Token so that the file reads `TOKEN=here_is_my_token`. Your token can be found as follows:\
     3.4.1: Open Discord on your Browser.\
