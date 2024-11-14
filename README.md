@@ -1,7 +1,3 @@
-Note: Due to Discords recent changes you may encounter problems when trying to download `cdn.discordapp.com/...`-links. Trying to find a workaround, in the meanwhile you have to manually download Discord-videos or renew the expiration-token (just send the videos in a discord-channel and copy the new link you get).
-
----
-
 # Simple step-by-step guide on how to download (multiple) videos in the highest quality that has audio via yt-dlp
 
 Please read this read-me (or at least the part that you want to use) before downloading anything and/or asking questions.
