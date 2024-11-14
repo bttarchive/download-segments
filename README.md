@@ -15,13 +15,13 @@ Also: All of this only works if the link is publicly available, i.e. you can’t
 ## Content
 
 1. [Downloading a single video, needs (almost) no setup](https://github.com/bttarchive/download-segments#1-downloading-a-single-video)
-    - If you rarely download videos and need an all-in-solution for exactly that, use this method. Very useful method if Twitter decides to shit the bed again, as yt-dlp usually has bypasses ready within hours.
+    - If you rarely download videos and need an all-in-solution for exactly that, use this method. Very useful method if Twitter decides to shit the bed again, as yt-dlp usually has bypasses ready within hours. This might not work for `cdn.discordapp.com/...`-links, but if it's just a single video you want to download, that shouldn't be a problem as you can just click "Download" within the Discord-App.
 
 2. [Downloading multiple videos, needs almost no setup](https://github.com/bttarchive/download-segments#2-downloading-multiple-videos)
-    - If you want to download multiple videos at one time, use this method.
+    - If you want to download multiple videos at one time, use this method. Again, this might not work for `cdn.discordapp.com/...`-links. See steps X) - Y) in the next section for a workaround.
 
 3. [Downloading multiple videos, with some extra features](https://github.com/bttarchive/download-segments#3-downloading-multiple-videos-with-extra-features)
-    - If you want to download multiple videos at one time, rename them automatically, only download sections around given timestamps and potentially convert them to `.mp4`, use this method. Also supports automatically updating the packages that are used inside the script. Very useful if you want to make a BTT-video.
+    - If you want to download multiple videos at one time, rename them automatically, only download sections around given timestamps and potentially convert them to `.mp4`, use this method. Also supports automatically updating the packages that are used inside the script. Very useful if you want to make a BTT-video. This method also includes a fix for `cdn.discordapp.com/...`-links.
 
 4. [Downloading multiple videos at once authorizing to a Google-Sheets-Document, needs a lot of setup](https://github.com/bttarchive/download-segments#4-downloading-multiple-videos-at-once-authorizing-to-a-google-sheets-document)
     - If you don't want to manually create the .txt-file from the 2nd method and instead want to directly read the links from a Google-Sheets-Document, use this method. Especially useful if you have some sort of dynamic list of links that gets automatically created by the Google-Sheets-Document. This is also the method I currently use to archive segments for the BTT-Archive.
